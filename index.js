@@ -33,7 +33,7 @@ function deleteFromObjectByKey(object, key) {
   return newObj;
 }
 
-/* use DELETE to remove the key from 
+/* use DELETE to remove the key from the original object
 
 */
 function destructivelyDeleteFromObjectByKey(object, key) {
