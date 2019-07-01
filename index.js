@@ -24,7 +24,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 
 /* create a new object to store clone
     use Object.assign to make a new object and give it the properties of the first
-    destroy 
+    use DELETE to remove the key from the clone 
 
 */
 function deleteFromObjectByKey(object, key) {
