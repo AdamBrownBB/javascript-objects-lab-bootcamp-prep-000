@@ -1,7 +1,7 @@
 /*  run test to see what it wants
 create an object called recipes
 use Object.assign to make a new object that has the original K-V pair, and the new ones while leaving the original intact
-Curly brackets to create target object to store the new 
+Curly brackets to create target object to store the new clone
 
 */
 
@@ -11,6 +11,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
   
   return Object.assign({}, object, {[key] : value});
 }
+
 
 /* update the existing object and return the updated one.
 */
