@@ -23,7 +23,7 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 /* create a new object to store clone
-    use Object.assign to make a new object and give it the properties of the first
+    use Object.assign to make a clone of the original object and give it the properties of the original
     use DELETE to remove the key from the clone  
 */
 
